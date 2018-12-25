@@ -1,0 +1,1551 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generate-react-component' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData generate-react-component
+8 silly fetchNamedPackageData generate-react-component
+9 silly mapToRegistry name generate-react-component
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/generate-react-component
+13 verbose request uri https://registry.npmjs.org/generate-react-component
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 15:46:43
+16 verbose request id 0edf4489cee4b366
+17 verbose etag W/"78fc2b189be1074b3572e4baece413cf"
+18 verbose lastModified Sun, 27 May 2018 01:38:34 GMT
+19 http request GET https://registry.npmjs.org/generate-react-component
+20 http 304 https://registry.npmjs.org/generate-react-component
+21 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie':
+21 verbose headers    [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'cf-ray': '48ed21004c174b15-GRU',
+21 verbose headers   etag: '"78fc2b189be1074b3572e4baece413cf"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Sun, 27 May 2018 01:38:34 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie':
+22 silly get      [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'cf-ray': '48ed21004c174b15-GRU',
+22 silly get     etag: '"78fc2b189be1074b3572e4baece413cf"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Sun, 27 May 2018 01:38:34 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/generate-react-component from cache
+24 verbose get saving generate-react-component to /home/cesar/.npm/registry.npmjs.org/generate-react-component/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule generate-react-component@0.1.6 checking installable status
+38 silly cache add args [ 'generate-react-component', null ]
+39 verbose cache add spec generate-react-component
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'generate-react-component',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'generate-react-component',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed generate-react-component@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for generate-react-component
+43 info addNameTag [ 'generate-react-component', 'latest' ]
+44 silly mapToRegistry name generate-react-component
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/generate-react-component
+48 verbose addNameTag registry:https://registry.npmjs.org/generate-react-component not in flight; fetching
+49 verbose get https://registry.npmjs.org/generate-react-component not expired, no request
+50 silly addNameTag next cb for generate-react-component with tag latest
+51 silly addNamed generate-react-component@0.1.6
+52 verbose addNamed "0.1.6" is a plain semver version for generate-react-component
+53 silly cache afterAdd generate-react-component@0.1.6
+54 verbose afterAdd /home/cesar/.npm/generate-react-component/0.1.6/package/package.json not in flight; writing
+55 verbose afterAdd /home/cesar/.npm/generate-react-component/0.1.6/package/package.json written
+56 silly fetchNamedPackageData commander
+57 silly mapToRegistry name commander
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/commander
+61 silly fetchNamedPackageData fs-extra
+62 silly mapToRegistry name fs-extra
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+66 silly fetchNamedPackageData program
+67 silly mapToRegistry name program
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/program
+71 verbose request uri https://registry.npmjs.org/commander
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 15:46:45
+74 verbose etag W/"ea3ca2acaad13980b54d7767837e9f83"
+75 verbose lastModified Wed, 19 Dec 2018 21:31:40 GMT
+76 http request GET https://registry.npmjs.org/commander
+77 verbose request uri https://registry.npmjs.org/program
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 15:46:45
+80 verbose etag W/"be87881aecff54db8b4442722e87e90a"
+81 verbose lastModified Sun, 27 May 2018 12:56:44 GMT
+82 http request GET https://registry.npmjs.org/program
+83 verbose request uri https://registry.npmjs.org/fs-extra
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 15:46:45
+86 verbose etag W/"ffb1c996610ac09f4b471fd8991dce24"
+87 verbose lastModified Wed, 07 Nov 2018 13:23:14 GMT
+88 http request GET https://registry.npmjs.org/fs-extra
+89 http 304 https://registry.npmjs.org/commander
+90 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+90 verbose headers   connection: 'keep-alive',
+90 verbose headers   'set-cookie':
+90 verbose headers    [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+90 verbose headers   'cf-cache-status': 'HIT',
+90 verbose headers   'cache-control': 'max-age=300',
+90 verbose headers   'cf-ray': '48ed21015cb94b15-GRU',
+90 verbose headers   etag: '"ea3ca2acaad13980b54d7767837e9f83"',
+90 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+90 verbose headers   'last-modified': 'Wed, 19 Dec 2018 21:31:40 GMT',
+90 verbose headers   vary: 'accept-encoding, accept',
+90 verbose headers   'x-amz-meta-rev': '1316-34bc826069fef110e249ddd16bffb57e',
+90 verbose headers   server: 'cloudflare' }
+91 silly get cb [ 304,
+91 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+91 silly get     connection: 'keep-alive',
+91 silly get     'set-cookie':
+91 silly get      [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+91 silly get     'cf-cache-status': 'HIT',
+91 silly get     'cache-control': 'max-age=300',
+91 silly get     'cf-ray': '48ed21015cb94b15-GRU',
+91 silly get     etag: '"ea3ca2acaad13980b54d7767837e9f83"',
+91 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+91 silly get     'last-modified': 'Wed, 19 Dec 2018 21:31:40 GMT',
+91 silly get     vary: 'accept-encoding, accept',
+91 silly get     'x-amz-meta-rev': '1316-34bc826069fef110e249ddd16bffb57e',
+91 silly get     server: 'cloudflare' } ]
+92 verbose etag https://registry.npmjs.org/commander from cache
+93 verbose get saving commander to /home/cesar/.npm/registry.npmjs.org/commander/.cache.json
+94 silly resolveWithNewModule commander@2.19.0 checking installable status
+95 silly cache add args [ 'commander@^2.9.0', null ]
+96 verbose cache add spec commander@^2.9.0
+97 silly cache add parsed spec Result {
+97 silly cache add   raw: 'commander@^2.9.0',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'commander',
+97 silly cache add   rawSpec: '^2.9.0',
+97 silly cache add   spec: '>=2.9.0 <3.0.0',
+97 silly cache add   type: 'range' }
+98 silly addNamed commander@>=2.9.0 <3.0.0
+99 verbose addNamed ">=2.9.0 <3.0.0" is a valid semver range for commander
+100 silly addNameRange { name: 'commander', range: '>=2.9.0 <3.0.0', hasData: false }
+101 silly mapToRegistry name commander
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/commander
+105 verbose addNameRange registry:https://registry.npmjs.org/commander not in flight; fetching
+106 verbose get https://registry.npmjs.org/commander not expired, no request
+107 silly addNameRange number 2 { name: 'commander', range: '>=2.9.0 <3.0.0', hasData: true }
+108 silly addNameRange versions [ 'commander',
+108 silly addNameRange   [ '0.0.1',
+108 silly addNameRange     '0.0.3',
+108 silly addNameRange     '0.0.4',
+108 silly addNameRange     '0.0.5',
+108 silly addNameRange     '0.1.0',
+108 silly addNameRange     '0.2.0',
+108 silly addNameRange     '0.2.1',
+108 silly addNameRange     '0.3.0',
+108 silly addNameRange     '0.3.1',
+108 silly addNameRange     '0.3.2',
+108 silly addNameRange     '0.3.3',
+108 silly addNameRange     '0.4.0',
+108 silly addNameRange     '0.4.1',
+108 silly addNameRange     '0.4.2',
+108 silly addNameRange     '0.4.3',
+108 silly addNameRange     '0.5.0',
+108 silly addNameRange     '0.5.1',
+108 silly addNameRange     '0.6.0',
+108 silly addNameRange     '0.6.1',
+108 silly addNameRange     '0.5.2',
+108 silly addNameRange     '1.0.0',
+108 silly addNameRange     '1.0.1',
+108 silly addNameRange     '1.0.2',
+108 silly addNameRange     '1.0.3',
+108 silly addNameRange     '1.0.4',
+108 silly addNameRange     '1.0.5',
+108 silly addNameRange     '1.1.0',
+108 silly addNameRange     '1.1.1',
+108 silly addNameRange     '1.2.0',
+108 silly addNameRange     '1.3.0',
+108 silly addNameRange     '1.3.1',
+108 silly addNameRange     '1.3.2',
+108 silly addNameRange     '2.0.0',
+108 silly addNameRange     '2.1.0',
+108 silly addNameRange     '2.2.0',
+108 silly addNameRange     '2.3.0',
+108 silly addNameRange     '2.4.0',
+108 silly addNameRange     '2.5.0',
+108 silly addNameRange     '2.5.1',
+108 silly addNameRange     '2.6.0',
+108 silly addNameRange     '2.7.0',
+108 silly addNameRange     '2.7.1',
+108 silly addNameRange     '2.8.0',
+108 silly addNameRange     '2.8.1',
+108 silly addNameRange     '2.9.0',
+108 silly addNameRange     '2.10.0',
+108 silly addNameRange     '2.11.0',
+108 silly addNameRange     '2.12.0',
+108 silly addNameRange     '2.12.1',
+108 silly addNameRange     '2.12.2',
+108 silly addNameRange     '2.13.0',
+108 silly addNameRange     '2.14.0',
+108 silly addNameRange     '2.14.1',
+108 silly addNameRange     '2.15.0',
+108 silly addNameRange     '2.15.1',
+108 silly addNameRange     '2.16.0',
+108 silly addNameRange     '2.17.0',
+108 silly addNameRange     '2.17.1',
+108 silly addNameRange     '2.18.0',
+108 silly addNameRange     '2.19.0' ] ]
+109 silly addNamed commander@2.19.0
+110 verbose addNamed "2.19.0" is a plain semver version for commander
+111 silly cache afterAdd commander@2.19.0
+112 verbose afterAdd /home/cesar/.npm/commander/2.19.0/package/package.json not in flight; writing
+113 verbose afterAdd /home/cesar/.npm/commander/2.19.0/package/package.json written
+114 http 304 https://registry.npmjs.org/fs-extra
+115 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+115 verbose headers   connection: 'keep-alive',
+115 verbose headers   'set-cookie':
+115 verbose headers    [ '__cfduid=d0b931b6f5170db35c7c308746213d0191545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+115 verbose headers   'cf-cache-status': 'HIT',
+115 verbose headers   'cache-control': 'max-age=300',
+115 verbose headers   'cf-ray': '48ed21021f904c96-GRU',
+115 verbose headers   etag: '"ffb1c996610ac09f4b471fd8991dce24"',
+115 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+115 verbose headers   'last-modified': 'Wed, 07 Nov 2018 13:23:14 GMT',
+115 verbose headers   vary: 'accept-encoding, accept',
+115 verbose headers   'x-amz-meta-rev': '610-ad17719f518c2e63e0227bc5d79029df',
+115 verbose headers   server: 'cloudflare' }
+116 silly get cb [ 304,
+116 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+116 silly get     connection: 'keep-alive',
+116 silly get     'set-cookie':
+116 silly get      [ '__cfduid=d0b931b6f5170db35c7c308746213d0191545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+116 silly get     'cf-cache-status': 'HIT',
+116 silly get     'cache-control': 'max-age=300',
+116 silly get     'cf-ray': '48ed21021f904c96-GRU',
+116 silly get     etag: '"ffb1c996610ac09f4b471fd8991dce24"',
+116 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+116 silly get     'last-modified': 'Wed, 07 Nov 2018 13:23:14 GMT',
+116 silly get     vary: 'accept-encoding, accept',
+116 silly get     'x-amz-meta-rev': '610-ad17719f518c2e63e0227bc5d79029df',
+116 silly get     server: 'cloudflare' } ]
+117 verbose etag https://registry.npmjs.org/fs-extra from cache
+118 verbose get saving fs-extra to /home/cesar/.npm/registry.npmjs.org/fs-extra/.cache.json
+119 http 304 https://registry.npmjs.org/program
+120 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+120 verbose headers   connection: 'keep-alive',
+120 verbose headers   'set-cookie':
+120 verbose headers    [ '__cfduid=d685f10a42bbbea76fd161026306c90f11545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+120 verbose headers   'cf-cache-status': 'HIT',
+120 verbose headers   'cache-control': 'max-age=300',
+120 verbose headers   'cf-ray': '48ed21020ea74b21-GRU',
+120 verbose headers   etag: '"be87881aecff54db8b4442722e87e90a"',
+120 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+120 verbose headers   'last-modified': 'Sun, 27 May 2018 12:56:44 GMT',
+120 verbose headers   vary: 'accept-encoding, accept',
+120 verbose headers   server: 'cloudflare' }
+121 silly get cb [ 304,
+121 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+121 silly get     connection: 'keep-alive',
+121 silly get     'set-cookie':
+121 silly get      [ '__cfduid=d685f10a42bbbea76fd161026306c90f11545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+121 silly get     'cf-cache-status': 'HIT',
+121 silly get     'cache-control': 'max-age=300',
+121 silly get     'cf-ray': '48ed21020ea74b21-GRU',
+121 silly get     etag: '"be87881aecff54db8b4442722e87e90a"',
+121 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+121 silly get     'last-modified': 'Sun, 27 May 2018 12:56:44 GMT',
+121 silly get     vary: 'accept-encoding, accept',
+121 silly get     server: 'cloudflare' } ]
+122 verbose etag https://registry.npmjs.org/program from cache
+123 verbose get saving program to /home/cesar/.npm/registry.npmjs.org/program/.cache.json
+124 silly resolveWithNewModule fs-extra@2.1.2 checking installable status
+125 silly cache add args [ 'fs-extra@^2.0.0', null ]
+126 verbose cache add spec fs-extra@^2.0.0
+127 silly cache add parsed spec Result {
+127 silly cache add   raw: 'fs-extra@^2.0.0',
+127 silly cache add   scope: null,
+127 silly cache add   name: 'fs-extra',
+127 silly cache add   rawSpec: '^2.0.0',
+127 silly cache add   spec: '>=2.0.0 <3.0.0',
+127 silly cache add   type: 'range' }
+128 silly addNamed fs-extra@>=2.0.0 <3.0.0
+129 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for fs-extra
+130 silly addNameRange { name: 'fs-extra', range: '>=2.0.0 <3.0.0', hasData: false }
+131 silly mapToRegistry name fs-extra
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry uri https://registry.npmjs.org/fs-extra
+135 verbose addNameRange registry:https://registry.npmjs.org/fs-extra not in flight; fetching
+136 silly resolveWithNewModule program@0.0.0 checking installable status
+137 silly cache add args [ 'program@^0.0.0-12', null ]
+138 verbose cache add spec program@^0.0.0-12
+139 silly cache add parsed spec Result {
+139 silly cache add   raw: 'program@^0.0.0-12',
+139 silly cache add   scope: null,
+139 silly cache add   name: 'program',
+139 silly cache add   rawSpec: '^0.0.0-12',
+139 silly cache add   spec: '>=0.0.0-12 <0.0.1',
+139 silly cache add   type: 'range' }
+140 silly addNamed program@>=0.0.0-12 <0.0.1
+141 verbose addNamed ">=0.0.0-12 <0.0.1" is a valid semver range for program
+142 silly addNameRange { name: 'program', range: '>=0.0.0-12 <0.0.1', hasData: false }
+143 silly mapToRegistry name program
+144 silly mapToRegistry using default registry
+145 silly mapToRegistry registry https://registry.npmjs.org/
+146 silly mapToRegistry uri https://registry.npmjs.org/program
+147 verbose addNameRange registry:https://registry.npmjs.org/program not in flight; fetching
+148 verbose get https://registry.npmjs.org/program not expired, no request
+149 silly addNameRange number 2 { name: 'program', range: '>=0.0.0-12 <0.0.1', hasData: true }
+150 silly addNameRange versions [ 'program',
+150 silly addNameRange   [ '0.0.0',
+150 silly addNameRange     '0.0.0-1',
+150 silly addNameRange     '0.0.0-2',
+150 silly addNameRange     '0.0.0-3',
+150 silly addNameRange     '0.0.0-4',
+150 silly addNameRange     '0.0.0-5',
+150 silly addNameRange     '0.0.0-6',
+150 silly addNameRange     '0.0.0-7',
+150 silly addNameRange     '0.0.0-8',
+150 silly addNameRange     '0.0.0-9',
+150 silly addNameRange     '0.0.0-10',
+150 silly addNameRange     '0.0.0-11',
+150 silly addNameRange     '0.0.0-12',
+150 silly addNameRange     '0.1.0',
+150 silly addNameRange     '1.0.0' ] ]
+151 silly addNamed program@0.0.0
+152 verbose addNamed "0.0.0" is a plain semver version for program
+153 verbose get https://registry.npmjs.org/fs-extra not expired, no request
+154 silly addNameRange number 2 { name: 'fs-extra', range: '>=2.0.0 <3.0.0', hasData: true }
+155 silly addNameRange versions [ 'fs-extra',
+155 silly addNameRange   [ '0.0.1',
+155 silly addNameRange     '0.0.11',
+155 silly addNameRange     '0.0.3',
+155 silly addNameRange     '0.0.4',
+155 silly addNameRange     '0.1.0',
+155 silly addNameRange     '0.1.1',
+155 silly addNameRange     '0.1.2',
+155 silly addNameRange     '0.1.3',
+155 silly addNameRange     '0.2.0',
+155 silly addNameRange     '0.2.1',
+155 silly addNameRange     '0.3.0',
+155 silly addNameRange     '0.3.1',
+155 silly addNameRange     '0.3.2',
+155 silly addNameRange     '0.4.0',
+155 silly addNameRange     '0.5.0',
+155 silly addNameRange     '0.6.0',
+155 silly addNameRange     '0.6.1',
+155 silly addNameRange     '0.6.2',
+155 silly addNameRange     '0.6.3',
+155 silly addNameRange     '0.6.4',
+155 silly addNameRange     '0.7.0',
+155 silly addNameRange     '0.7.1',
+155 silly addNameRange     '0.8.0',
+155 silly addNameRange     '0.8.1',
+155 silly addNameRange     '0.9.0',
+155 silly addNameRange     '0.9.1',
+155 silly addNameRange     '0.10.0',
+155 silly addNameRange     '0.11.0',
+155 silly addNameRange     '0.11.1',
+155 silly addNameRange     '0.12.0',
+155 silly addNameRange     '0.13.0',
+155 silly addNameRange     '0.14.0',
+155 silly addNameRange     '0.15.0',
+155 silly addNameRange     '0.16.0',
+155 silly addNameRange     '0.16.1',
+155 silly addNameRange     '0.16.2',
+155 silly addNameRange     '0.16.3',
+155 silly addNameRange     '0.16.4',
+155 silly addNameRange     '0.16.5',
+155 silly addNameRange     '0.17.0',
+155 silly addNameRange     '0.18.0',
+155 silly addNameRange     '0.18.1',
+155 silly addNameRange     '0.18.2',
+155 silly addNameRange     '0.18.3',
+155 silly addNameRange     '0.18.4',
+155 silly addNameRange     '0.19.0',
+155 silly addNameRange     '0.20.0',
+155 silly addNameRange     '0.20.1',
+155 silly addNameRange     '0.21.0',
+155 silly addNameRange     '0.22.0',
+155 silly addNameRange     '0.22.1',
+155 silly addNameRange     '0.23.0',
+155 silly addNameRange     '0.23.1',
+155 silly addNameRange     '0.24.0',
+155 silly addNameRange     '0.25.0',
+155 silly addNameRange     '0.26.0',
+155 silly addNameRange     '0.26.1',
+155 silly addNameRange     '0.26.2',
+155 silly addNameRange     '0.26.3',
+155 silly addNameRange     '0.26.4',
+155 silly addNameRange     '0.26.5',
+155 silly addNameRange     '0.26.6',
+155 silly addNameRange     '0.26.7',
+155 silly addNameRange     '0.27.0',
+155 silly addNameRange     '0.28.0',
+155 silly addNameRange     '0.29.0',
+155 silly addNameRange     '0.30.0',
+155 silly addNameRange     '1.0.0',
+155 silly addNameRange     '2.0.0',
+155 silly addNameRange     '2.1.0',
+155 silly addNameRange     '2.1.1',
+155 silly addNameRange     '2.1.2',
+155 silly addNameRange     '3.0.0',
+155 silly addNameRange     '3.0.1',
+155 silly addNameRange     '4.0.0',
+155 silly addNameRange     '4.0.1',
+155 silly addNameRange     '4.0.2',
+155 silly addNameRange     '4.0.3',
+155 silly addNameRange     '5.0.0',
+155 silly addNameRange     '6.0.0',
+155 silly addNameRange     '6.0.1',
+155 silly addNameRange     '7.0.0',
+155 silly addNameRange     '7.0.1' ] ]
+156 silly addNamed fs-extra@2.1.2
+157 verbose addNamed "2.1.2" is a plain semver version for fs-extra
+158 silly cache afterAdd fs-extra@2.1.2
+159 verbose afterAdd /home/cesar/.npm/fs-extra/2.1.2/package/package.json not in flight; writing
+160 silly cache afterAdd program@0.0.0
+161 verbose afterAdd /home/cesar/.npm/program/0.0.0/package/package.json not in flight; writing
+162 verbose afterAdd /home/cesar/.npm/program/0.0.0/package/package.json written
+163 verbose afterAdd /home/cesar/.npm/fs-extra/2.1.2/package/package.json written
+164 silly fetchNamedPackageData graceful-fs
+165 silly mapToRegistry name graceful-fs
+166 silly mapToRegistry using default registry
+167 silly mapToRegistry registry https://registry.npmjs.org/
+168 silly mapToRegistry uri https://registry.npmjs.org/graceful-fs
+169 silly fetchNamedPackageData jsonfile
+170 silly mapToRegistry name jsonfile
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry uri https://registry.npmjs.org/jsonfile
+174 verbose request uri https://registry.npmjs.org/graceful-fs
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 15:46:45
+177 verbose etag W/"65479a6201dbbc1e751fb2f67dfa0809"
+178 verbose lastModified Sun, 04 Nov 2018 20:51:58 GMT
+179 http request GET https://registry.npmjs.org/graceful-fs
+180 verbose request uri https://registry.npmjs.org/jsonfile
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 15:46:45
+183 verbose etag W/"42ffaf6ee3159e694500b09c4142b8be"
+184 verbose lastModified Sat, 08 Sep 2018 17:03:40 GMT
+185 http request GET https://registry.npmjs.org/jsonfile
+186 http 304 https://registry.npmjs.org/graceful-fs
+187 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+187 verbose headers   connection: 'keep-alive',
+187 verbose headers   'set-cookie':
+187 verbose headers    [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+187 verbose headers   'cf-cache-status': 'HIT',
+187 verbose headers   'cache-control': 'max-age=300',
+187 verbose headers   'cf-ray': '48ed2102edb84b15-GRU',
+187 verbose headers   etag: '"65479a6201dbbc1e751fb2f67dfa0809"',
+187 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+187 verbose headers   'last-modified': 'Sun, 04 Nov 2018 20:51:58 GMT',
+187 verbose headers   vary: 'accept-encoding, accept',
+187 verbose headers   'x-amz-meta-rev': '204-3ea980c425725a63a5de5e3f020e8617',
+187 verbose headers   server: 'cloudflare' }
+188 silly get cb [ 304,
+188 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+188 silly get     connection: 'keep-alive',
+188 silly get     'set-cookie':
+188 silly get      [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+188 silly get     'cf-cache-status': 'HIT',
+188 silly get     'cache-control': 'max-age=300',
+188 silly get     'cf-ray': '48ed2102edb84b15-GRU',
+188 silly get     etag: '"65479a6201dbbc1e751fb2f67dfa0809"',
+188 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+188 silly get     'last-modified': 'Sun, 04 Nov 2018 20:51:58 GMT',
+188 silly get     vary: 'accept-encoding, accept',
+188 silly get     'x-amz-meta-rev': '204-3ea980c425725a63a5de5e3f020e8617',
+188 silly get     server: 'cloudflare' } ]
+189 verbose etag https://registry.npmjs.org/graceful-fs from cache
+190 verbose get saving graceful-fs to /home/cesar/.npm/registry.npmjs.org/graceful-fs/.cache.json
+191 silly resolveWithNewModule graceful-fs@4.1.15 checking installable status
+192 silly cache add args [ 'graceful-fs@^4.1.2', null ]
+193 verbose cache add spec graceful-fs@^4.1.2
+194 silly cache add parsed spec Result {
+194 silly cache add   raw: 'graceful-fs@^4.1.2',
+194 silly cache add   scope: null,
+194 silly cache add   name: 'graceful-fs',
+194 silly cache add   rawSpec: '^4.1.2',
+194 silly cache add   spec: '>=4.1.2 <5.0.0',
+194 silly cache add   type: 'range' }
+195 silly addNamed graceful-fs@>=4.1.2 <5.0.0
+196 verbose addNamed ">=4.1.2 <5.0.0" is a valid semver range for graceful-fs
+197 silly addNameRange { name: 'graceful-fs', range: '>=4.1.2 <5.0.0', hasData: false }
+198 silly mapToRegistry name graceful-fs
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry uri https://registry.npmjs.org/graceful-fs
+202 verbose addNameRange registry:https://registry.npmjs.org/graceful-fs not in flight; fetching
+203 http 304 https://registry.npmjs.org/jsonfile
+204 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+204 verbose headers   connection: 'keep-alive',
+204 verbose headers   'set-cookie':
+204 verbose headers    [ '__cfduid=d0b931b6f5170db35c7c308746213d0191545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+204 verbose headers   'cf-cache-status': 'HIT',
+204 verbose headers   'cache-control': 'max-age=300',
+204 verbose headers   'cf-ray': '48ed2102e8324c96-GRU',
+204 verbose headers   etag: '"42ffaf6ee3159e694500b09c4142b8be"',
+204 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+204 verbose headers   'last-modified': 'Sat, 08 Sep 2018 17:03:40 GMT',
+204 verbose headers   vary: 'accept-encoding, accept',
+204 verbose headers   'x-amz-meta-rev': '198-368b08d87d0d6abdf37be46f0baf7f6b',
+204 verbose headers   server: 'cloudflare' }
+205 silly get cb [ 304,
+205 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+205 silly get     connection: 'keep-alive',
+205 silly get     'set-cookie':
+205 silly get      [ '__cfduid=d0b931b6f5170db35c7c308746213d0191545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+205 silly get     'cf-cache-status': 'HIT',
+205 silly get     'cache-control': 'max-age=300',
+205 silly get     'cf-ray': '48ed2102e8324c96-GRU',
+205 silly get     etag: '"42ffaf6ee3159e694500b09c4142b8be"',
+205 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+205 silly get     'last-modified': 'Sat, 08 Sep 2018 17:03:40 GMT',
+205 silly get     vary: 'accept-encoding, accept',
+205 silly get     'x-amz-meta-rev': '198-368b08d87d0d6abdf37be46f0baf7f6b',
+205 silly get     server: 'cloudflare' } ]
+206 verbose etag https://registry.npmjs.org/jsonfile from cache
+207 verbose get saving jsonfile to /home/cesar/.npm/registry.npmjs.org/jsonfile/.cache.json
+208 verbose get https://registry.npmjs.org/graceful-fs not expired, no request
+209 silly addNameRange number 2 { name: 'graceful-fs', range: '>=4.1.2 <5.0.0', hasData: true }
+210 silly addNameRange versions [ 'graceful-fs',
+210 silly addNameRange   [ '1.0.0',
+210 silly addNameRange     '1.0.1',
+210 silly addNameRange     '1.0.2',
+210 silly addNameRange     '1.1.0',
+210 silly addNameRange     '1.1.1',
+210 silly addNameRange     '1.1.2',
+210 silly addNameRange     '1.1.3',
+210 silly addNameRange     '1.1.4',
+210 silly addNameRange     '1.1.5',
+210 silly addNameRange     '1.1.6',
+210 silly addNameRange     '1.1.7',
+210 silly addNameRange     '1.1.8',
+210 silly addNameRange     '1.1.9',
+210 silly addNameRange     '1.1.10',
+210 silly addNameRange     '1.1.11',
+210 silly addNameRange     '1.1.12',
+210 silly addNameRange     '1.1.13',
+210 silly addNameRange     '1.1.14',
+210 silly addNameRange     '1.2.0',
+210 silly addNameRange     '1.2.1',
+210 silly addNameRange     '1.2.2',
+210 silly addNameRange     '1.2.3',
+210 silly addNameRange     '2.0.0',
+210 silly addNameRange     '2.0.1',
+210 silly addNameRange     '2.0.2',
+210 silly addNameRange     '2.0.3',
+210 silly addNameRange     '3.0.0',
+210 silly addNameRange     '3.0.1',
+210 silly addNameRange     '3.0.2',
+210 silly addNameRange     '3.0.3',
+210 silly addNameRange     '3.0.4',
+210 silly addNameRange     '3.0.5',
+210 silly addNameRange     '3.0.6',
+210 silly addNameRange     '3.0.7',
+210 silly addNameRange     '3.0.8',
+210 silly addNameRange     '4.1.0',
+210 silly addNameRange     '4.1.1',
+210 silly addNameRange     '4.1.2',
+210 silly addNameRange     '4.1.3',
+210 silly addNameRange     '4.1.4',
+210 silly addNameRange     '4.1.5',
+210 silly addNameRange     '3.0.9',
+210 silly addNameRange     '4.1.6',
+210 silly addNameRange     '3.0.10',
+210 silly addNameRange     '3.0.11',
+210 silly addNameRange     '4.1.7',
+210 silly addNameRange     '4.1.8',
+210 silly addNameRange     '4.1.9',
+210 silly addNameRange     '4.1.10',
+210 silly addNameRange     '4.1.11',
+210 silly addNameRange     '4.1.12',
+210 silly addNameRange     '4.1.13',
+210 silly addNameRange     '4.1.14',
+210 silly addNameRange     '4.1.15' ] ]
+211 silly addNamed graceful-fs@4.1.15
+212 verbose addNamed "4.1.15" is a plain semver version for graceful-fs
+213 silly cache afterAdd graceful-fs@4.1.15
+214 verbose afterAdd /home/cesar/.npm/graceful-fs/4.1.15/package/package.json not in flight; writing
+215 silly resolveWithNewModule jsonfile@2.4.0 checking installable status
+216 silly cache add args [ 'jsonfile@^2.1.0', null ]
+217 verbose cache add spec jsonfile@^2.1.0
+218 silly cache add parsed spec Result {
+218 silly cache add   raw: 'jsonfile@^2.1.0',
+218 silly cache add   scope: null,
+218 silly cache add   name: 'jsonfile',
+218 silly cache add   rawSpec: '^2.1.0',
+218 silly cache add   spec: '>=2.1.0 <3.0.0',
+218 silly cache add   type: 'range' }
+219 silly addNamed jsonfile@>=2.1.0 <3.0.0
+220 verbose addNamed ">=2.1.0 <3.0.0" is a valid semver range for jsonfile
+221 silly addNameRange { name: 'jsonfile', range: '>=2.1.0 <3.0.0', hasData: false }
+222 silly mapToRegistry name jsonfile
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/jsonfile
+226 verbose addNameRange registry:https://registry.npmjs.org/jsonfile not in flight; fetching
+227 verbose get https://registry.npmjs.org/jsonfile not expired, no request
+228 silly addNameRange number 2 { name: 'jsonfile', range: '>=2.1.0 <3.0.0', hasData: true }
+229 silly addNameRange versions [ 'jsonfile',
+229 silly addNameRange   [ '0.0.1',
+229 silly addNameRange     '1.0.0',
+229 silly addNameRange     '1.0.1',
+229 silly addNameRange     '1.1.0',
+229 silly addNameRange     '1.1.1',
+229 silly addNameRange     '1.2.0',
+229 silly addNameRange     '2.0.0',
+229 silly addNameRange     '2.0.1',
+229 silly addNameRange     '2.1.0',
+229 silly addNameRange     '2.1.1',
+229 silly addNameRange     '2.1.2',
+229 silly addNameRange     '2.2.0',
+229 silly addNameRange     '2.2.1',
+229 silly addNameRange     '2.2.2',
+229 silly addNameRange     '2.2.3',
+229 silly addNameRange     '2.3.0',
+229 silly addNameRange     '2.3.1',
+229 silly addNameRange     '2.4.0',
+229 silly addNameRange     '3.0.0',
+229 silly addNameRange     '3.0.1',
+229 silly addNameRange     '4.0.0',
+229 silly addNameRange     '5.0.0' ] ]
+230 silly addNamed jsonfile@2.4.0
+231 verbose addNamed "2.4.0" is a plain semver version for jsonfile
+232 verbose afterAdd /home/cesar/.npm/graceful-fs/4.1.15/package/package.json written
+233 silly cache afterAdd jsonfile@2.4.0
+234 verbose afterAdd /home/cesar/.npm/jsonfile/2.4.0/package/package.json not in flight; writing
+235 verbose afterAdd /home/cesar/.npm/jsonfile/2.4.0/package/package.json written
+236 silly fetchNamedPackageData ini
+237 silly mapToRegistry name ini
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry uri https://registry.npmjs.org/ini
+241 silly fetchNamedPackageData tilde-expansion
+242 silly mapToRegistry name tilde-expansion
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npmjs.org/
+245 silly mapToRegistry uri https://registry.npmjs.org/tilde-expansion
+246 verbose request uri https://registry.npmjs.org/ini
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 15:46:45
+249 verbose etag W/"5e28c9b5f45696a0ef8faea045ce2a6a"
+250 verbose lastModified Sun, 27 May 2018 04:40:11 GMT
+251 http request GET https://registry.npmjs.org/ini
+252 verbose request uri https://registry.npmjs.org/tilde-expansion
+253 verbose request no auth needed
+254 info attempt registry request try #1 at 15:46:45
+255 verbose etag W/"03b4d99bafd0eb4ad5623a8fddc43b0f"
+256 verbose lastModified Sun, 27 May 2018 19:30:06 GMT
+257 http request GET https://registry.npmjs.org/tilde-expansion
+258 http 304 https://registry.npmjs.org/tilde-expansion
+259 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+259 verbose headers   connection: 'keep-alive',
+259 verbose headers   'set-cookie':
+259 verbose headers    [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+259 verbose headers   'cf-cache-status': 'HIT',
+259 verbose headers   'cache-control': 'max-age=300',
+259 verbose headers   'cf-ray': '48ed21038df64b15-GRU',
+259 verbose headers   etag: '"03b4d99bafd0eb4ad5623a8fddc43b0f"',
+259 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+259 verbose headers   'last-modified': 'Sun, 27 May 2018 19:30:06 GMT',
+259 verbose headers   vary: 'accept-encoding, accept',
+259 verbose headers   server: 'cloudflare' }
+260 silly get cb [ 304,
+260 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+260 silly get     connection: 'keep-alive',
+260 silly get     'set-cookie':
+260 silly get      [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+260 silly get     'cf-cache-status': 'HIT',
+260 silly get     'cache-control': 'max-age=300',
+260 silly get     'cf-ray': '48ed21038df64b15-GRU',
+260 silly get     etag: '"03b4d99bafd0eb4ad5623a8fddc43b0f"',
+260 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+260 silly get     'last-modified': 'Sun, 27 May 2018 19:30:06 GMT',
+260 silly get     vary: 'accept-encoding, accept',
+260 silly get     server: 'cloudflare' } ]
+261 verbose etag https://registry.npmjs.org/tilde-expansion from cache
+262 verbose get saving tilde-expansion to /home/cesar/.npm/registry.npmjs.org/tilde-expansion/.cache.json
+263 silly resolveWithNewModule tilde-expansion@0.0.0 checking installable status
+264 silly cache add args [ 'tilde-expansion@0.0.0', null ]
+265 verbose cache add spec tilde-expansion@0.0.0
+266 silly cache add parsed spec Result {
+266 silly cache add   raw: 'tilde-expansion@0.0.0',
+266 silly cache add   scope: null,
+266 silly cache add   name: 'tilde-expansion',
+266 silly cache add   rawSpec: '0.0.0',
+266 silly cache add   spec: '0.0.0',
+266 silly cache add   type: 'version' }
+267 silly addNamed tilde-expansion@0.0.0
+268 verbose addNamed "0.0.0" is a plain semver version for tilde-expansion
+269 silly mapToRegistry name tilde-expansion
+270 silly mapToRegistry using default registry
+271 silly mapToRegistry registry https://registry.npmjs.org/
+272 silly mapToRegistry uri https://registry.npmjs.org/tilde-expansion
+273 verbose addNameVersion registry:https://registry.npmjs.org/tilde-expansion not in flight; fetching
+274 http 304 https://registry.npmjs.org/ini
+275 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+275 verbose headers   connection: 'keep-alive',
+275 verbose headers   'set-cookie':
+275 verbose headers    [ '__cfduid=d685f10a42bbbea76fd161026306c90f11545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+275 verbose headers   'cf-cache-status': 'HIT',
+275 verbose headers   'cache-control': 'max-age=300',
+275 verbose headers   'cf-ray': '48ed21038f704b21-GRU',
+275 verbose headers   etag: '"5e28c9b5f45696a0ef8faea045ce2a6a"',
+275 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+275 verbose headers   'last-modified': 'Sun, 27 May 2018 04:40:11 GMT',
+275 verbose headers   vary: 'accept-encoding, accept',
+275 verbose headers   server: 'cloudflare' }
+276 silly get cb [ 304,
+276 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+276 silly get     connection: 'keep-alive',
+276 silly get     'set-cookie':
+276 silly get      [ '__cfduid=d685f10a42bbbea76fd161026306c90f11545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+276 silly get     'cf-cache-status': 'HIT',
+276 silly get     'cache-control': 'max-age=300',
+276 silly get     'cf-ray': '48ed21038f704b21-GRU',
+276 silly get     etag: '"5e28c9b5f45696a0ef8faea045ce2a6a"',
+276 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+276 silly get     'last-modified': 'Sun, 27 May 2018 04:40:11 GMT',
+276 silly get     vary: 'accept-encoding, accept',
+276 silly get     server: 'cloudflare' } ]
+277 verbose etag https://registry.npmjs.org/ini from cache
+278 verbose get saving ini to /home/cesar/.npm/registry.npmjs.org/ini/.cache.json
+279 verbose get https://registry.npmjs.org/tilde-expansion not expired, no request
+280 silly cache afterAdd tilde-expansion@0.0.0
+281 verbose afterAdd /home/cesar/.npm/tilde-expansion/0.0.0/package/package.json not in flight; writing
+282 silly resolveWithNewModule ini@1.1.0 checking installable status
+283 silly cache add args [ 'ini@~1.1.0', null ]
+284 verbose cache add spec ini@~1.1.0
+285 silly cache add parsed spec Result {
+285 silly cache add   raw: 'ini@~1.1.0',
+285 silly cache add   scope: null,
+285 silly cache add   name: 'ini',
+285 silly cache add   rawSpec: '~1.1.0',
+285 silly cache add   spec: '>=1.1.0 <1.2.0',
+285 silly cache add   type: 'range' }
+286 silly addNamed ini@>=1.1.0 <1.2.0
+287 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for ini
+288 silly addNameRange { name: 'ini', range: '>=1.1.0 <1.2.0', hasData: false }
+289 silly mapToRegistry name ini
+290 silly mapToRegistry using default registry
+291 silly mapToRegistry registry https://registry.npmjs.org/
+292 silly mapToRegistry uri https://registry.npmjs.org/ini
+293 verbose addNameRange registry:https://registry.npmjs.org/ini not in flight; fetching
+294 verbose get https://registry.npmjs.org/ini not expired, no request
+295 silly addNameRange number 2 { name: 'ini', range: '>=1.1.0 <1.2.0', hasData: true }
+296 silly addNameRange versions [ 'ini',
+296 silly addNameRange   [ '1.0.0',
+296 silly addNameRange     '1.0.1',
+296 silly addNameRange     '1.0.2',
+296 silly addNameRange     '1.0.3',
+296 silly addNameRange     '1.0.4',
+296 silly addNameRange     '1.0.5',
+296 silly addNameRange     '1.1.0',
+296 silly addNameRange     '1.2.0',
+296 silly addNameRange     '1.2.1',
+296 silly addNameRange     '1.3.0',
+296 silly addNameRange     '1.3.1',
+296 silly addNameRange     '1.3.2',
+296 silly addNameRange     '1.3.3',
+296 silly addNameRange     '1.3.4',
+296 silly addNameRange     '1.3.5' ] ]
+297 silly addNamed ini@1.1.0
+298 verbose addNamed "1.1.0" is a plain semver version for ini
+299 verbose afterAdd /home/cesar/.npm/tilde-expansion/0.0.0/package/package.json written
+300 silly cache afterAdd ini@1.1.0
+301 verbose afterAdd /home/cesar/.npm/ini/1.1.0/package/package.json not in flight; writing
+302 verbose afterAdd /home/cesar/.npm/ini/1.1.0/package/package.json written
+303 silly fetchNamedPackageData etc-passwd
+304 silly mapToRegistry name etc-passwd
+305 silly mapToRegistry using default registry
+306 silly mapToRegistry registry https://registry.npmjs.org/
+307 silly mapToRegistry uri https://registry.npmjs.org/etc-passwd
+308 verbose request uri https://registry.npmjs.org/etc-passwd
+309 verbose request no auth needed
+310 info attempt registry request try #1 at 15:46:45
+311 verbose etag W/"cc15d8f67c2e2f214a2490949d475e20"
+312 verbose lastModified Sat, 26 May 2018 23:56:56 GMT
+313 http request GET https://registry.npmjs.org/etc-passwd
+314 http 304 https://registry.npmjs.org/etc-passwd
+315 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+315 verbose headers   connection: 'keep-alive',
+315 verbose headers   'set-cookie':
+315 verbose headers    [ '__cfduid=d0b931b6f5170db35c7c308746213d0191545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+315 verbose headers   'cf-cache-status': 'HIT',
+315 verbose headers   'cache-control': 'max-age=300',
+315 verbose headers   'cf-ray': '48ed210428be4c96-GRU',
+315 verbose headers   etag: '"cc15d8f67c2e2f214a2490949d475e20"',
+315 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+315 verbose headers   'last-modified': 'Sat, 26 May 2018 23:56:56 GMT',
+315 verbose headers   vary: 'accept-encoding, accept',
+315 verbose headers   server: 'cloudflare' }
+316 silly get cb [ 304,
+316 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+316 silly get     connection: 'keep-alive',
+316 silly get     'set-cookie':
+316 silly get      [ '__cfduid=d0b931b6f5170db35c7c308746213d0191545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+316 silly get     'cf-cache-status': 'HIT',
+316 silly get     'cache-control': 'max-age=300',
+316 silly get     'cf-ray': '48ed210428be4c96-GRU',
+316 silly get     etag: '"cc15d8f67c2e2f214a2490949d475e20"',
+316 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+316 silly get     'last-modified': 'Sat, 26 May 2018 23:56:56 GMT',
+316 silly get     vary: 'accept-encoding, accept',
+316 silly get     server: 'cloudflare' } ]
+317 verbose etag https://registry.npmjs.org/etc-passwd from cache
+318 verbose get saving etc-passwd to /home/cesar/.npm/registry.npmjs.org/etc-passwd/.cache.json
+319 silly resolveWithNewModule etc-passwd@0.0.1 checking installable status
+320 silly cache add args [ 'etc-passwd@0.0.1', null ]
+321 verbose cache add spec etc-passwd@0.0.1
+322 silly cache add parsed spec Result {
+322 silly cache add   raw: 'etc-passwd@0.0.1',
+322 silly cache add   scope: null,
+322 silly cache add   name: 'etc-passwd',
+322 silly cache add   rawSpec: '0.0.1',
+322 silly cache add   spec: '0.0.1',
+322 silly cache add   type: 'version' }
+323 silly addNamed etc-passwd@0.0.1
+324 verbose addNamed "0.0.1" is a plain semver version for etc-passwd
+325 silly mapToRegistry name etc-passwd
+326 silly mapToRegistry using default registry
+327 silly mapToRegistry registry https://registry.npmjs.org/
+328 silly mapToRegistry uri https://registry.npmjs.org/etc-passwd
+329 verbose addNameVersion registry:https://registry.npmjs.org/etc-passwd not in flight; fetching
+330 verbose get https://registry.npmjs.org/etc-passwd not expired, no request
+331 silly cache afterAdd etc-passwd@0.0.1
+332 verbose afterAdd /home/cesar/.npm/etc-passwd/0.0.1/package/package.json not in flight; writing
+333 verbose afterAdd /home/cesar/.npm/etc-passwd/0.0.1/package/package.json written
+334 silly fetchNamedPackageData lazylines
+335 silly mapToRegistry name lazylines
+336 silly mapToRegistry using default registry
+337 silly mapToRegistry registry https://registry.npmjs.org/
+338 silly mapToRegistry uri https://registry.npmjs.org/lazylines
+339 verbose request uri https://registry.npmjs.org/lazylines
+340 verbose request no auth needed
+341 info attempt registry request try #1 at 15:46:45
+342 verbose etag W/"777fab23b238c399b1ab251cb212c7e8"
+343 verbose lastModified Sun, 27 May 2018 06:31:03 GMT
+344 http request GET https://registry.npmjs.org/lazylines
+345 http 304 https://registry.npmjs.org/lazylines
+346 verbose headers { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+346 verbose headers   connection: 'keep-alive',
+346 verbose headers   'set-cookie':
+346 verbose headers    [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+346 verbose headers   'cf-cache-status': 'HIT',
+346 verbose headers   'cache-control': 'max-age=300',
+346 verbose headers   'cf-ray': '48ed2104ae934b15-GRU',
+346 verbose headers   etag: '"777fab23b238c399b1ab251cb212c7e8"',
+346 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+346 verbose headers   'last-modified': 'Sun, 27 May 2018 06:31:03 GMT',
+346 verbose headers   vary: 'accept-encoding, accept',
+346 verbose headers   server: 'cloudflare' }
+347 silly get cb [ 304,
+347 silly get   { date: 'Tue, 25 Dec 2018 17:46:45 GMT',
+347 silly get     connection: 'keep-alive',
+347 silly get     'set-cookie':
+347 silly get      [ '__cfduid=d70a5a5c7f19f74e88e590776695b925d1545760005; expires=Wed, 25-Dec-19 17:46:45 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+347 silly get     'cf-cache-status': 'HIT',
+347 silly get     'cache-control': 'max-age=300',
+347 silly get     'cf-ray': '48ed2104ae934b15-GRU',
+347 silly get     etag: '"777fab23b238c399b1ab251cb212c7e8"',
+347 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+347 silly get     'last-modified': 'Sun, 27 May 2018 06:31:03 GMT',
+347 silly get     vary: 'accept-encoding, accept',
+347 silly get     server: 'cloudflare' } ]
+348 verbose etag https://registry.npmjs.org/lazylines from cache
+349 verbose get saving lazylines to /home/cesar/.npm/registry.npmjs.org/lazylines/.cache.json
+350 silly resolveWithNewModule lazylines@1.0.0 checking installable status
+351 silly cache add args [ 'lazylines@= 1.0.0', null ]
+352 verbose cache add spec lazylines@= 1.0.0
+353 silly cache add parsed spec Result {
+353 silly cache add   raw: 'lazylines@= 1.0.0',
+353 silly cache add   scope: null,
+353 silly cache add   name: 'lazylines',
+353 silly cache add   rawSpec: '= 1.0.0',
+353 silly cache add   spec: '1.0.0',
+353 silly cache add   type: 'version' }
+354 silly addNamed lazylines@1.0.0
+355 verbose addNamed "1.0.0" is a plain semver version for lazylines
+356 silly mapToRegistry name lazylines
+357 silly mapToRegistry using default registry
+358 silly mapToRegistry registry https://registry.npmjs.org/
+359 silly mapToRegistry uri https://registry.npmjs.org/lazylines
+360 verbose addNameVersion registry:https://registry.npmjs.org/lazylines not in flight; fetching
+361 verbose get https://registry.npmjs.org/lazylines not expired, no request
+362 silly cache afterAdd lazylines@1.0.0
+363 verbose afterAdd /home/cesar/.npm/lazylines/1.0.0/package/package.json not in flight; writing
+364 verbose afterAdd /home/cesar/.npm/lazylines/1.0.0/package/package.json written
+365 silly loadAllDepsIntoIdealTree Finishing
+366 silly idealTree:prePrune lib
+366 silly idealTree:prePrune └─┬ generate-react-component@0.1.6
+366 silly idealTree:prePrune   ├── commander@2.19.0
+366 silly idealTree:prePrune   ├── etc-passwd@0.0.1
+366 silly idealTree:prePrune   ├── fs-extra@2.1.2
+366 silly idealTree:prePrune   ├── graceful-fs@4.1.15
+366 silly idealTree:prePrune   ├── ini@1.1.0
+366 silly idealTree:prePrune   ├── jsonfile@2.4.0
+366 silly idealTree:prePrune   ├── lazylines@1.0.0
+366 silly idealTree:prePrune   ├── program@0.0.0
+366 silly idealTree:prePrune   └── tilde-expansion@0.0.0
+367 silly loadIdealTree Finishing
+368 silly currentTree lib
+369 silly idealTree lib
+369 silly idealTree └─┬ generate-react-component@0.1.6
+369 silly idealTree   ├── commander@2.19.0
+369 silly idealTree   ├── etc-passwd@0.0.1
+369 silly idealTree   ├── fs-extra@2.1.2
+369 silly idealTree   ├── graceful-fs@4.1.15
+369 silly idealTree   ├── ini@1.1.0
+369 silly idealTree   ├── jsonfile@2.4.0
+369 silly idealTree   ├── lazylines@1.0.0
+369 silly idealTree   ├── program@0.0.0
+369 silly idealTree   └── tilde-expansion@0.0.0
+370 silly generateActionsToTake Starting
+371 silly install generateActionsToTake
+372 silly generateActionsToTake Finishing
+373 silly diffTrees action count 10
+374 silly diffTrees add commander@2.19.0
+375 silly diffTrees add graceful-fs@4.1.15
+376 silly diffTrees add ini@1.1.0
+377 silly diffTrees add jsonfile@2.4.0
+378 silly diffTrees add fs-extra@2.1.2
+379 silly diffTrees add lazylines@1.0.0
+380 silly diffTrees add etc-passwd@0.0.1
+381 silly diffTrees add tilde-expansion@0.0.0
+382 silly diffTrees add program@0.0.0
+383 silly diffTrees add generate-react-component@0.1.6
+384 silly decomposeActions action count 80
+385 silly decomposeActions fetch commander@2.19.0
+386 silly decomposeActions extract commander@2.19.0
+387 silly decomposeActions test commander@2.19.0
+388 silly decomposeActions preinstall commander@2.19.0
+389 silly decomposeActions build commander@2.19.0
+390 silly decomposeActions install commander@2.19.0
+391 silly decomposeActions postinstall commander@2.19.0
+392 silly decomposeActions finalize commander@2.19.0
+393 silly decomposeActions fetch graceful-fs@4.1.15
+394 silly decomposeActions extract graceful-fs@4.1.15
+395 silly decomposeActions test graceful-fs@4.1.15
+396 silly decomposeActions preinstall graceful-fs@4.1.15
+397 silly decomposeActions build graceful-fs@4.1.15
+398 silly decomposeActions install graceful-fs@4.1.15
+399 silly decomposeActions postinstall graceful-fs@4.1.15
+400 silly decomposeActions finalize graceful-fs@4.1.15
+401 silly decomposeActions fetch ini@1.1.0
+402 silly decomposeActions extract ini@1.1.0
+403 silly decomposeActions test ini@1.1.0
+404 silly decomposeActions preinstall ini@1.1.0
+405 silly decomposeActions build ini@1.1.0
+406 silly decomposeActions install ini@1.1.0
+407 silly decomposeActions postinstall ini@1.1.0
+408 silly decomposeActions finalize ini@1.1.0
+409 silly decomposeActions fetch jsonfile@2.4.0
+410 silly decomposeActions extract jsonfile@2.4.0
+411 silly decomposeActions test jsonfile@2.4.0
+412 silly decomposeActions preinstall jsonfile@2.4.0
+413 silly decomposeActions build jsonfile@2.4.0
+414 silly decomposeActions install jsonfile@2.4.0
+415 silly decomposeActions postinstall jsonfile@2.4.0
+416 silly decomposeActions finalize jsonfile@2.4.0
+417 silly decomposeActions fetch fs-extra@2.1.2
+418 silly decomposeActions extract fs-extra@2.1.2
+419 silly decomposeActions test fs-extra@2.1.2
+420 silly decomposeActions preinstall fs-extra@2.1.2
+421 silly decomposeActions build fs-extra@2.1.2
+422 silly decomposeActions install fs-extra@2.1.2
+423 silly decomposeActions postinstall fs-extra@2.1.2
+424 silly decomposeActions finalize fs-extra@2.1.2
+425 silly decomposeActions fetch lazylines@1.0.0
+426 silly decomposeActions extract lazylines@1.0.0
+427 silly decomposeActions test lazylines@1.0.0
+428 silly decomposeActions preinstall lazylines@1.0.0
+429 silly decomposeActions build lazylines@1.0.0
+430 silly decomposeActions install lazylines@1.0.0
+431 silly decomposeActions postinstall lazylines@1.0.0
+432 silly decomposeActions finalize lazylines@1.0.0
+433 silly decomposeActions fetch etc-passwd@0.0.1
+434 silly decomposeActions extract etc-passwd@0.0.1
+435 silly decomposeActions test etc-passwd@0.0.1
+436 silly decomposeActions preinstall etc-passwd@0.0.1
+437 silly decomposeActions build etc-passwd@0.0.1
+438 silly decomposeActions install etc-passwd@0.0.1
+439 silly decomposeActions postinstall etc-passwd@0.0.1
+440 silly decomposeActions finalize etc-passwd@0.0.1
+441 silly decomposeActions fetch tilde-expansion@0.0.0
+442 silly decomposeActions extract tilde-expansion@0.0.0
+443 silly decomposeActions test tilde-expansion@0.0.0
+444 silly decomposeActions preinstall tilde-expansion@0.0.0
+445 silly decomposeActions build tilde-expansion@0.0.0
+446 silly decomposeActions install tilde-expansion@0.0.0
+447 silly decomposeActions postinstall tilde-expansion@0.0.0
+448 silly decomposeActions finalize tilde-expansion@0.0.0
+449 silly decomposeActions fetch program@0.0.0
+450 silly decomposeActions extract program@0.0.0
+451 silly decomposeActions test program@0.0.0
+452 silly decomposeActions preinstall program@0.0.0
+453 silly decomposeActions build program@0.0.0
+454 silly decomposeActions install program@0.0.0
+455 silly decomposeActions postinstall program@0.0.0
+456 silly decomposeActions finalize program@0.0.0
+457 silly decomposeActions fetch generate-react-component@0.1.6
+458 silly decomposeActions extract generate-react-component@0.1.6
+459 silly decomposeActions test generate-react-component@0.1.6
+460 silly decomposeActions preinstall generate-react-component@0.1.6
+461 silly decomposeActions build generate-react-component@0.1.6
+462 silly decomposeActions install generate-react-component@0.1.6
+463 silly decomposeActions postinstall generate-react-component@0.1.6
+464 silly decomposeActions finalize generate-react-component@0.1.6
+465 silly executeActions Starting
+466 silly install executeActions
+467 silly doSerial global-install 0
+468 silly doParallel fetch 10
+469 verbose lock using /home/cesar/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+470 silly doParallel extract 10
+471 silly extract commander@2.19.0
+472 silly extract graceful-fs@4.1.15
+473 silly extract ini@1.1.0
+474 silly extract jsonfile@2.4.0
+475 silly extract fs-extra@2.1.2
+476 silly extract lazylines@1.0.0
+477 silly extract etc-passwd@0.0.1
+478 silly extract tilde-expansion@0.0.0
+479 silly extract program@0.0.0
+480 silly extract generate-react-component@0.1.6
+481 verbose unbuild lib/node_modules/.staging/commander-12f01677
+482 verbose unbuild lib/node_modules/.staging/graceful-fs-461ef0c9
+483 verbose unbuild lib/node_modules/.staging/ini-ebd6b7d8
+484 verbose unbuild lib/node_modules/.staging/jsonfile-820ce164
+485 verbose unbuild lib/node_modules/.staging/fs-extra-dc9fd0ea
+486 verbose unbuild lib/node_modules/.staging/lazylines-436676cc
+487 verbose unbuild lib/node_modules/.staging/etc-passwd-cc7acacd
+488 verbose unbuild lib/node_modules/.staging/tilde-expansion-c3e05eb5
+489 verbose unbuild lib/node_modules/.staging/program-2725753e
+490 verbose unbuild lib/node_modules/.staging/generate-react-component-0f5d6115
+491 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-12f01677 is being purged from base /usr/local
+492 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-12f01677
+493 silly gentlyRm /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9 is being purged from base /usr/local
+494 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9
+495 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-ebd6b7d8 is being purged from base /usr/local
+496 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-ebd6b7d8
+497 silly gentlyRm /usr/local/lib/node_modules/.staging/jsonfile-820ce164 is being purged from base /usr/local
+498 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/jsonfile-820ce164
+499 silly gentlyRm /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea is being purged from base /usr/local
+500 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea
+501 silly gentlyRm /usr/local/lib/node_modules/.staging/lazylines-436676cc is being purged from base /usr/local
+502 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/lazylines-436676cc
+503 silly gentlyRm /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd is being purged from base /usr/local
+504 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd
+505 silly gentlyRm /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5 is being purged from base /usr/local
+506 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5
+507 verbose tar unpack /home/cesar/.npm/commander/2.19.0/package.tgz
+508 verbose tar unpacking to /usr/local/lib/node_modules/.staging/commander-12f01677
+509 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-12f01677 is being purged
+510 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-12f01677
+511 verbose tar unpack /home/cesar/.npm/graceful-fs/4.1.15/package.tgz
+512 verbose tar unpacking to /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9
+513 silly gentlyRm /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9 is being purged
+514 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9
+515 verbose tar unpack /home/cesar/.npm/ini/1.1.0/package.tgz
+516 verbose tar unpacking to /usr/local/lib/node_modules/.staging/ini-ebd6b7d8
+517 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-ebd6b7d8 is being purged
+518 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-ebd6b7d8
+519 verbose tar unpack /home/cesar/.npm/jsonfile/2.4.0/package.tgz
+520 verbose tar unpacking to /usr/local/lib/node_modules/.staging/jsonfile-820ce164
+521 silly gentlyRm /usr/local/lib/node_modules/.staging/jsonfile-820ce164 is being purged
+522 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/jsonfile-820ce164
+523 verbose tar unpack /home/cesar/.npm/fs-extra/2.1.2/package.tgz
+524 verbose tar unpacking to /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea
+525 silly gentlyRm /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea is being purged
+526 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea
+527 verbose tar unpack /home/cesar/.npm/lazylines/1.0.0/package.tgz
+528 verbose tar unpacking to /usr/local/lib/node_modules/.staging/lazylines-436676cc
+529 silly gentlyRm /usr/local/lib/node_modules/.staging/lazylines-436676cc is being purged
+530 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/lazylines-436676cc
+531 verbose tar unpack /home/cesar/.npm/etc-passwd/0.0.1/package.tgz
+532 verbose tar unpacking to /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd
+533 silly gentlyRm /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd is being purged
+534 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd
+535 verbose tar unpack /home/cesar/.npm/tilde-expansion/0.0.0/package.tgz
+536 verbose tar unpacking to /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5
+537 silly gentlyRm /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5 is being purged
+538 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5
+539 silly gentlyRm /usr/local/lib/node_modules/.staging/program-2725753e is being purged from base /usr/local
+540 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/program-2725753e
+541 silly gentlyRm /usr/local/lib/node_modules/.staging/generate-react-component-0f5d6115 is being purged from base /usr/local
+542 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/generate-react-component-0f5d6115
+543 silly gunzTarPerm modes [ '755', '644' ]
+544 silly gunzTarPerm modes [ '755', '644' ]
+545 silly gunzTarPerm modes [ '755', '644' ]
+546 silly gunzTarPerm modes [ '755', '644' ]
+547 silly gunzTarPerm modes [ '755', '644' ]
+548 silly gunzTarPerm modes [ '755', '644' ]
+549 silly gunzTarPerm modes [ '755', '644' ]
+550 silly gunzTarPerm modes [ '755', '644' ]
+551 verbose tar unpack /home/cesar/.npm/program/0.0.0/package.tgz
+552 verbose tar unpacking to /usr/local/lib/node_modules/.staging/program-2725753e
+553 silly gentlyRm /usr/local/lib/node_modules/.staging/program-2725753e is being purged
+554 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/program-2725753e
+555 verbose tar unpack /home/cesar/.npm/generate-react-component/0.1.6/package.tgz
+556 verbose tar unpacking to /usr/local/lib/node_modules/.staging/generate-react-component-0f5d6115
+557 silly gentlyRm /usr/local/lib/node_modules/.staging/generate-react-component-0f5d6115 is being purged
+558 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/generate-react-component-0f5d6115
+559 silly gunzTarPerm modes [ '755', '644' ]
+560 silly gunzTarPerm modes [ '755', '644' ]
+561 silly gunzTarPerm extractEntry package.json
+562 silly gunzTarPerm extractEntry package.json
+563 silly gunzTarPerm extractEntry package.json
+564 silly gunzTarPerm extractEntry package.json
+565 silly gunzTarPerm extractEntry package.json
+566 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+567 silly gunzTarPerm extractEntry .gitignore
+568 silly gunzTarPerm extractEntry package.json
+569 silly gunzTarPerm extractEntry package.json
+570 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+571 silly gunzTarPerm extractEntry package.json
+572 silly gunzTarPerm extractEntry package.json
+573 silly gunzTarPerm extractEntry clone.js
+574 silly gunzTarPerm extractEntry graceful-fs.js
+575 silly gunzTarPerm extractEntry CHANGELOG.md
+576 silly gunzTarPerm extractEntry index.js
+577 silly gunzTarPerm extractEntry README.md
+578 silly gunzTarPerm extractEntry LICENSE
+579 silly gunzTarPerm extractEntry .npmignore
+580 silly gunzTarPerm extractEntry README.md
+581 silly gunzTarPerm extractEntry .npmignore
+582 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+583 silly gunzTarPerm extractEntry README.md
+584 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+585 silly gunzTarPerm extractEntry package.json
+586 silly gunzTarPerm extractEntry lazylines.js
+587 silly gunzTarPerm extractEntry .npmignore
+588 silly gunzTarPerm extractEntry README.md
+589 silly gunzTarPerm extractEntry .npmignore
+590 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+591 silly gunzTarPerm extractEntry README.md
+592 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+593 silly gunzTarPerm extractEntry clone.js
+594 silly gunzTarPerm extractEntry config.js
+595 silly gunzTarPerm extractEntry .npmignore
+596 silly gunzTarPerm extractEntry index.js
+597 silly gunzTarPerm extractEntry ini.js
+598 silly gunzTarPerm extractEntry test/bar.js
+599 silly gunzTarPerm extractEntry README.md
+600 silly gunzTarPerm extractEntry demo/addlinecounts.js
+601 silly gunzTarPerm extractEntry legacy-streams.js
+602 silly gunzTarPerm extractEntry LICENSE
+603 silly gunzTarPerm extractEntry LICENSE
+604 silly gunzTarPerm extractEntry LICENSE
+605 silly gunzTarPerm extractEntry index.js
+606 silly gunzTarPerm extractEntry LICENSE
+607 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+608 silly gunzTarPerm extractEntry CHANGELOG.md
+609 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+610 silly gunzTarPerm extractEntry index.js
+611 silly gunzTarPerm extractEntry examples/get-group.js
+612 silly gunzTarPerm extractEntry index.js
+613 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+614 silly gunzTarPerm extractEntry examples/extended.js
+615 silly gunzTarPerm modified mode [ 'examples/extended.js', 438, 420 ]
+616 silly gunzTarPerm extractEntry readme.md
+617 silly gunzTarPerm extractEntry yarn.lock
+618 silly gunzTarPerm extractEntry help.js
+619 silly gunzTarPerm extractEntry prog.js
+620 silly gunzTarPerm extractEntry demo/read_file.js
+621 silly gunzTarPerm extractEntry demo/read_stdin.js
+622 silly gunzTarPerm extractEntry polyfills.js
+623 silly gunzTarPerm extractEntry README.md
+624 silly gunzTarPerm extractEntry appveyor.yml
+625 silly gunzTarPerm extractEntry CHANGELOG.md
+626 silly gunzTarPerm extractEntry test/foo.js
+627 silly gunzTarPerm extractEntry test/fixtures/foo.ini
+628 silly gunzTarPerm extractEntry docs/move-sync.md
+629 silly gunzTarPerm modified mode [ 'docs/move-sync.md', 436, 420 ]
+630 silly gunzTarPerm extractEntry examples/get-user.js
+631 silly gunzTarPerm extractEntry examples/group-callback.js
+632 silly gunzTarPerm extractEntry examples/simple.js
+633 silly gunzTarPerm modified mode [ 'examples/simple.js', 438, 420 ]
+634 silly gunzTarPerm extractEntry tests/test.js
+635 silly gunzTarPerm modified mode [ 'tests/test.js', 438, 420 ]
+636 silly gunzTarPerm extractEntry Readme.md
+637 silly gunzTarPerm extractEntry typings/index.d.ts
+638 silly gunzTarPerm extractEntry .hgignore
+639 silly gunzTarPerm extractEntry install.sh
+640 silly gunzTarPerm extractEntry test/lazylines_test.js
+641 silly gunzTarPerm extractEntry .idea/encodings.xml
+642 silly gunzTarPerm extractEntry docs/copy-sync.md
+643 silly gunzTarPerm modified mode [ 'docs/copy-sync.md', 436, 420 ]
+644 silly gunzTarPerm extractEntry docs/emptyDir-sync.md
+645 silly gunzTarPerm modified mode [ 'docs/emptyDir-sync.md', 436, 420 ]
+646 silly gunzTarPerm extractEntry examples/group-events.js
+647 silly gunzTarPerm extractEntry examples/passwd-callback.js
+648 silly gunzTarPerm extractEntry examples/passwd-events.js
+649 silly gunzTarPerm extractEntry prog.sh
+650 silly gunzTarPerm extractEntry .idea/linereadstream.iml
+651 silly gunzTarPerm extractEntry .idea/lines.iml
+652 silly gunzTarPerm extractEntry docs/emptyDir.md
+653 silly gunzTarPerm modified mode [ 'docs/emptyDir.md', 436, 420 ]
+654 silly gunzTarPerm extractEntry docs/ensureDir-sync.md
+655 silly gunzTarPerm modified mode [ 'docs/ensureDir-sync.md', 436, 420 ]
+656 silly gunzTarPerm extractEntry docs/ensureDir.md
+657 silly gunzTarPerm modified mode [ 'docs/ensureDir.md', 436, 420 ]
+658 silly gunzTarPerm extractEntry docs/ensureFile-sync.md
+659 silly gunzTarPerm modified mode [ 'docs/ensureFile-sync.md', 436, 420 ]
+660 silly gunzTarPerm extractEntry docs/ensureFile.md
+661 silly gunzTarPerm modified mode [ 'docs/ensureFile.md', 436, 420 ]
+662 silly gunzTarPerm extractEntry docs/ensureLink-sync.md
+663 silly gunzTarPerm modified mode [ 'docs/ensureLink-sync.md', 436, 420 ]
+664 silly gunzTarPerm extractEntry .idea/misc.xml
+665 silly gunzTarPerm extractEntry .idea/modules.xml
+666 silly gunzTarPerm extractEntry .idea/vcs.xml
+667 silly gunzTarPerm extractEntry .idea/workspace.xml
+668 silly gunzTarPerm extractEntry .idea/inspectionProfiles/profiles_settings.xml
+669 silly gunzTarPerm extractEntry .idea/inspectionProfiles/Project_Default.xml
+670 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+671 silly gunzTarPerm extractEntry docs/ensureLink.md
+672 silly gunzTarPerm modified mode [ 'docs/ensureLink.md', 436, 420 ]
+673 silly gunzTarPerm extractEntry docs/ensureSymlink-sync.md
+674 silly gunzTarPerm modified mode [ 'docs/ensureSymlink-sync.md', 436, 420 ]
+675 silly gunzTarPerm extractEntry docs/ensureSymlink.md
+676 silly gunzTarPerm modified mode [ 'docs/ensureSymlink.md', 436, 420 ]
+677 silly gunzTarPerm extractEntry docs/copy.md
+678 silly gunzTarPerm modified mode [ 'docs/copy.md', 436, 420 ]
+679 silly gentlyRm /usr/local/lib/node_modules/.staging/generate-react-component-0f5d6115/node_modules is being purged
+680 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/generate-react-component-0f5d6115/node_modules
+681 silly gunzTarPerm extractEntry docs/move.md
+682 silly gunzTarPerm modified mode [ 'docs/move.md', 436, 420 ]
+683 silly gunzTarPerm extractEntry docs/outputFile-sync.md
+684 silly gunzTarPerm modified mode [ 'docs/outputFile-sync.md', 436, 420 ]
+685 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-12f01677/node_modules is being purged
+686 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-12f01677/node_modules
+687 silly gentlyRm /usr/local/lib/node_modules/.staging/jsonfile-820ce164/node_modules is being purged
+688 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/jsonfile-820ce164/node_modules
+689 silly gentlyRm /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9/node_modules is being purged
+690 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9/node_modules
+691 silly gentlyRm /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5/node_modules is being purged
+692 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5/node_modules
+693 silly gentlyRm /usr/local/lib/node_modules/.staging/ini-ebd6b7d8/node_modules is being purged
+694 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/ini-ebd6b7d8/node_modules
+695 silly gunzTarPerm extractEntry docs/outputFile.md
+696 silly gunzTarPerm modified mode [ 'docs/outputFile.md', 436, 420 ]
+697 silly gunzTarPerm extractEntry docs/outputJson-sync.md
+698 silly gunzTarPerm modified mode [ 'docs/outputJson-sync.md', 436, 420 ]
+699 silly gentlyRm /usr/local/lib/node_modules/.staging/program-2725753e/node_modules is being purged
+700 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/program-2725753e/node_modules
+701 silly gunzTarPerm extractEntry docs/outputJson.md
+702 silly gunzTarPerm modified mode [ 'docs/outputJson.md', 436, 420 ]
+703 silly gunzTarPerm extractEntry docs/readJson-sync.md
+704 silly gunzTarPerm modified mode [ 'docs/readJson-sync.md', 436, 420 ]
+705 silly gunzTarPerm extractEntry docs/readJson.md
+706 silly gunzTarPerm modified mode [ 'docs/readJson.md', 436, 420 ]
+707 silly gunzTarPerm extractEntry docs/remove-sync.md
+708 silly gunzTarPerm modified mode [ 'docs/remove-sync.md', 436, 420 ]
+709 silly gentlyRm /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd/node_modules is being purged
+710 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd/node_modules
+711 silly gunzTarPerm extractEntry docs/remove.md
+712 silly gunzTarPerm modified mode [ 'docs/remove.md', 436, 420 ]
+713 silly gunzTarPerm extractEntry docs/writeJson-sync.md
+714 silly gunzTarPerm modified mode [ 'docs/writeJson-sync.md', 436, 420 ]
+715 silly gunzTarPerm extractEntry docs/writeJson.md
+716 silly gunzTarPerm modified mode [ 'docs/writeJson.md', 436, 420 ]
+717 silly gunzTarPerm extractEntry lib/index.js
+718 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+719 silly gunzTarPerm extractEntry lib/json/index.js
+720 silly gunzTarPerm modified mode [ 'lib/json/index.js', 436, 420 ]
+721 silly gunzTarPerm extractEntry lib/json/jsonfile.js
+722 silly gunzTarPerm modified mode [ 'lib/json/jsonfile.js', 436, 420 ]
+723 silly gunzTarPerm extractEntry lib/json/output-json-sync.js
+724 silly gunzTarPerm modified mode [ 'lib/json/output-json-sync.js', 436, 420 ]
+725 silly gunzTarPerm extractEntry lib/json/output-json.js
+726 silly gunzTarPerm modified mode [ 'lib/json/output-json.js', 436, 420 ]
+727 silly gunzTarPerm extractEntry lib/copy-sync/copy-file-sync.js
+728 silly gunzTarPerm modified mode [ 'lib/copy-sync/copy-file-sync.js', 436, 420 ]
+729 silly gunzTarPerm extractEntry lib/copy-sync/copy-sync.js
+730 silly gunzTarPerm modified mode [ 'lib/copy-sync/copy-sync.js', 436, 420 ]
+731 silly gunzTarPerm extractEntry lib/copy-sync/index.js
+732 silly gunzTarPerm modified mode [ 'lib/copy-sync/index.js', 436, 420 ]
+733 silly gunzTarPerm extractEntry lib/empty/index.js
+734 silly gunzTarPerm modified mode [ 'lib/empty/index.js', 436, 420 ]
+735 silly gunzTarPerm extractEntry lib/ensure/file.js
+736 silly gunzTarPerm modified mode [ 'lib/ensure/file.js', 436, 420 ]
+737 silly gunzTarPerm extractEntry lib/ensure/index.js
+738 silly gunzTarPerm modified mode [ 'lib/ensure/index.js', 436, 420 ]
+739 silly gunzTarPerm extractEntry lib/ensure/link.js
+740 silly gunzTarPerm modified mode [ 'lib/ensure/link.js', 436, 420 ]
+741 silly gunzTarPerm extractEntry lib/ensure/symlink-paths.js
+742 silly gunzTarPerm modified mode [ 'lib/ensure/symlink-paths.js', 436, 420 ]
+743 silly gunzTarPerm extractEntry lib/ensure/symlink-type.js
+744 silly gunzTarPerm modified mode [ 'lib/ensure/symlink-type.js', 436, 420 ]
+745 silly gunzTarPerm extractEntry lib/ensure/symlink.js
+746 silly gunzTarPerm modified mode [ 'lib/ensure/symlink.js', 436, 420 ]
+747 silly gentlyRm /usr/local/lib/node_modules/.staging/lazylines-436676cc/node_modules is being purged
+748 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/lazylines-436676cc/node_modules
+749 silly gunzTarPerm extractEntry lib/copy/copy.js
+750 silly gunzTarPerm modified mode [ 'lib/copy/copy.js', 436, 420 ]
+751 silly gunzTarPerm extractEntry lib/copy/index.js
+752 silly gunzTarPerm modified mode [ 'lib/copy/index.js', 436, 420 ]
+753 silly gunzTarPerm extractEntry lib/copy/ncp.js
+754 silly gunzTarPerm modified mode [ 'lib/copy/ncp.js', 436, 420 ]
+755 silly gunzTarPerm extractEntry lib/mkdirs/index.js
+756 silly gunzTarPerm modified mode [ 'lib/mkdirs/index.js', 436, 420 ]
+757 silly gunzTarPerm extractEntry lib/mkdirs/mkdirs-sync.js
+758 silly gunzTarPerm modified mode [ 'lib/mkdirs/mkdirs-sync.js', 436, 420 ]
+759 silly gunzTarPerm extractEntry lib/mkdirs/mkdirs.js
+760 silly gunzTarPerm modified mode [ 'lib/mkdirs/mkdirs.js', 436, 420 ]
+761 silly gunzTarPerm extractEntry lib/mkdirs/win32.js
+762 silly gunzTarPerm modified mode [ 'lib/mkdirs/win32.js', 436, 420 ]
+763 silly gunzTarPerm extractEntry lib/move/index.js
+764 silly gunzTarPerm modified mode [ 'lib/move/index.js', 436, 420 ]
+765 silly gunzTarPerm extractEntry lib/move-sync/index.js
+766 silly gunzTarPerm modified mode [ 'lib/move-sync/index.js', 436, 420 ]
+767 silly gunzTarPerm extractEntry lib/output/index.js
+768 silly gunzTarPerm modified mode [ 'lib/output/index.js', 436, 420 ]
+769 silly gunzTarPerm extractEntry lib/remove/index.js
+770 silly gunzTarPerm modified mode [ 'lib/remove/index.js', 436, 420 ]
+771 silly gunzTarPerm extractEntry lib/remove/rimraf.js
+772 silly gunzTarPerm modified mode [ 'lib/remove/rimraf.js', 436, 420 ]
+773 silly gunzTarPerm extractEntry lib/util/assign.js
+774 silly gunzTarPerm modified mode [ 'lib/util/assign.js', 436, 420 ]
+775 silly gunzTarPerm extractEntry lib/util/utimes.js
+776 silly gunzTarPerm modified mode [ 'lib/util/utimes.js', 436, 420 ]
+777 silly gentlyRm /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea/node_modules is being purged
+778 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea/node_modules
+779 silly doParallel preinstall 10
+780 silly preinstall commander@2.19.0 /usr/local/lib/node_modules/.staging/commander-12f01677
+781 info lifecycle commander@2.19.0~preinstall: commander@2.19.0
+782 silly preinstall graceful-fs@4.1.15 /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9
+783 info lifecycle graceful-fs@4.1.15~preinstall: graceful-fs@4.1.15
+784 silly preinstall ini@1.1.0 /usr/local/lib/node_modules/.staging/ini-ebd6b7d8
+785 info lifecycle ini@1.1.0~preinstall: ini@1.1.0
+786 silly preinstall jsonfile@2.4.0 /usr/local/lib/node_modules/.staging/jsonfile-820ce164
+787 info lifecycle jsonfile@2.4.0~preinstall: jsonfile@2.4.0
+788 silly preinstall fs-extra@2.1.2 /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea
+789 info lifecycle fs-extra@2.1.2~preinstall: fs-extra@2.1.2
+790 silly preinstall lazylines@1.0.0 /usr/local/lib/node_modules/.staging/lazylines-436676cc
+791 info lifecycle lazylines@1.0.0~preinstall: lazylines@1.0.0
+792 silly preinstall etc-passwd@0.0.1 /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd
+793 info lifecycle etc-passwd@0.0.1~preinstall: etc-passwd@0.0.1
+794 silly preinstall tilde-expansion@0.0.0 /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5
+795 info lifecycle tilde-expansion@0.0.0~preinstall: tilde-expansion@0.0.0
+796 silly preinstall program@0.0.0 /usr/local/lib/node_modules/.staging/program-2725753e
+797 info lifecycle program@0.0.0~preinstall: program@0.0.0
+798 silly preinstall generate-react-component@0.1.6 /usr/local/lib/node_modules/.staging/generate-react-component-0f5d6115
+799 info lifecycle generate-react-component@0.1.6~preinstall: generate-react-component@0.1.6
+800 silly lifecycle commander@2.19.0~preinstall: no script for preinstall, continuing
+801 silly lifecycle graceful-fs@4.1.15~preinstall: no script for preinstall, continuing
+802 silly lifecycle ini@1.1.0~preinstall: no script for preinstall, continuing
+803 silly lifecycle jsonfile@2.4.0~preinstall: no script for preinstall, continuing
+804 silly lifecycle fs-extra@2.1.2~preinstall: no script for preinstall, continuing
+805 silly lifecycle lazylines@1.0.0~preinstall: no script for preinstall, continuing
+806 silly lifecycle etc-passwd@0.0.1~preinstall: no script for preinstall, continuing
+807 silly lifecycle tilde-expansion@0.0.0~preinstall: no script for preinstall, continuing
+808 silly lifecycle program@0.0.0~preinstall: no script for preinstall, continuing
+809 silly lifecycle generate-react-component@0.1.6~preinstall: no script for preinstall, continuing
+810 silly doReverseSerial remove 0
+811 silly doSerial move 0
+812 silly doSerial finalize 10
+813 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/commander
+814 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/graceful-fs
+815 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/ini
+816 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/jsonfile
+817 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/fs-extra
+818 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/lazylines
+819 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/etc-passwd
+820 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/tilde-expansion
+821 silly finalize /usr/local/lib/node_modules/generate-react-component/node_modules/program
+822 silly finalize /usr/local/lib/node_modules/generate-react-component
+823 silly doSerial build 10
+824 silly build commander@2.19.0
+825 info linkStuff commander@2.19.0
+826 silly linkStuff commander@2.19.0 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+827 silly linkStuff commander@2.19.0 is part of a global install
+828 silly linkStuff commander@2.19.0 is installed into a global node_modules
+829 verbose linkBins commander@2.19.0
+830 verbose linkMans commander@2.19.0
+831 silly build graceful-fs@4.1.15
+832 info linkStuff graceful-fs@4.1.15
+833 silly linkStuff graceful-fs@4.1.15 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+834 silly linkStuff graceful-fs@4.1.15 is part of a global install
+835 silly linkStuff graceful-fs@4.1.15 is installed into a global node_modules
+836 verbose linkBins graceful-fs@4.1.15
+837 verbose linkMans graceful-fs@4.1.15
+838 silly build ini@1.1.0
+839 info linkStuff ini@1.1.0
+840 silly linkStuff ini@1.1.0 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+841 silly linkStuff ini@1.1.0 is part of a global install
+842 silly linkStuff ini@1.1.0 is installed into a global node_modules
+843 verbose linkBins ini@1.1.0
+844 verbose linkMans ini@1.1.0
+845 silly build jsonfile@2.4.0
+846 info linkStuff jsonfile@2.4.0
+847 silly linkStuff jsonfile@2.4.0 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+848 silly linkStuff jsonfile@2.4.0 is part of a global install
+849 silly linkStuff jsonfile@2.4.0 is installed into a global node_modules
+850 verbose linkBins jsonfile@2.4.0
+851 verbose linkMans jsonfile@2.4.0
+852 silly build fs-extra@2.1.2
+853 info linkStuff fs-extra@2.1.2
+854 silly linkStuff fs-extra@2.1.2 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+855 silly linkStuff fs-extra@2.1.2 is part of a global install
+856 silly linkStuff fs-extra@2.1.2 is installed into a global node_modules
+857 verbose linkBins fs-extra@2.1.2
+858 verbose linkMans fs-extra@2.1.2
+859 silly build lazylines@1.0.0
+860 info linkStuff lazylines@1.0.0
+861 silly linkStuff lazylines@1.0.0 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+862 silly linkStuff lazylines@1.0.0 is part of a global install
+863 silly linkStuff lazylines@1.0.0 is installed into a global node_modules
+864 verbose linkBins lazylines@1.0.0
+865 verbose linkMans lazylines@1.0.0
+866 silly build etc-passwd@0.0.1
+867 info linkStuff etc-passwd@0.0.1
+868 silly linkStuff etc-passwd@0.0.1 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+869 silly linkStuff etc-passwd@0.0.1 is part of a global install
+870 silly linkStuff etc-passwd@0.0.1 is installed into a global node_modules
+871 verbose linkBins etc-passwd@0.0.1
+872 verbose linkMans etc-passwd@0.0.1
+873 silly build tilde-expansion@0.0.0
+874 info linkStuff tilde-expansion@0.0.0
+875 silly linkStuff tilde-expansion@0.0.0 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+876 silly linkStuff tilde-expansion@0.0.0 is part of a global install
+877 silly linkStuff tilde-expansion@0.0.0 is installed into a global node_modules
+878 verbose linkBins tilde-expansion@0.0.0
+879 verbose linkMans tilde-expansion@0.0.0
+880 silly build program@0.0.0
+881 info linkStuff program@0.0.0
+882 silly linkStuff program@0.0.0 has /usr/local/lib/node_modules/generate-react-component/node_modules as its parent node_modules
+883 silly linkStuff program@0.0.0 is part of a global install
+884 silly linkStuff program@0.0.0 is installed into a global node_modules
+885 verbose linkBins program@0.0.0
+886 verbose link bins [ { 'prog.js': './prog.js',
+886 verbose link bins     prog: './prog.js',
+886 verbose link bins     'prog.sh': './prog.sh' },
+886 verbose link bins   '/usr/local/lib/node_modules/generate-react-component/node_modules/.bin',
+886 verbose link bins   false ]
+887 verbose linkMans program@0.0.0
+888 silly gentlyRm /usr/local/lib/node_modules/generate-react-component/node_modules/.bin/prog.js is being purged
+889 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generate-react-component/node_modules/.bin/prog.js
+890 silly gentlyRm /usr/local/lib/node_modules/generate-react-component/node_modules/.bin/prog is being purged
+891 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generate-react-component/node_modules/.bin/prog
+892 silly gentlyRm /usr/local/lib/node_modules/generate-react-component/node_modules/.bin/prog.sh is being purged
+893 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generate-react-component/node_modules/.bin/prog.sh
+894 silly build generate-react-component@0.1.6
+895 info linkStuff generate-react-component@0.1.6
+896 silly linkStuff generate-react-component@0.1.6 has /usr/local/lib/node_modules as its parent node_modules
+897 silly linkStuff generate-react-component@0.1.6 is part of a global install
+898 silly linkStuff generate-react-component@0.1.6 is installed into a global node_modules
+899 silly linkStuff generate-react-component@0.1.6 is installed into the top-level global node_modules
+900 verbose linkBins generate-react-component@0.1.6
+901 verbose link bins [ { rcmp: './index.js' }, '/usr/local/bin', true ]
+902 verbose linkMans generate-react-component@0.1.6
+903 silly gentlyRm /usr/local/bin/rcmp is being gently removed
+904 silly doSerial global-link 0
+905 silly doParallel update-linked 0
+906 silly doSerial install 10
+907 silly install commander@2.19.0 /usr/local/lib/node_modules/.staging/commander-12f01677
+908 info lifecycle commander@2.19.0~install: commander@2.19.0
+909 silly lifecycle commander@2.19.0~install: no script for install, continuing
+910 silly install graceful-fs@4.1.15 /usr/local/lib/node_modules/.staging/graceful-fs-461ef0c9
+911 info lifecycle graceful-fs@4.1.15~install: graceful-fs@4.1.15
+912 silly lifecycle graceful-fs@4.1.15~install: no script for install, continuing
+913 silly install ini@1.1.0 /usr/local/lib/node_modules/.staging/ini-ebd6b7d8
+914 info lifecycle ini@1.1.0~install: ini@1.1.0
+915 silly lifecycle ini@1.1.0~install: no script for install, continuing
+916 silly install jsonfile@2.4.0 /usr/local/lib/node_modules/.staging/jsonfile-820ce164
+917 info lifecycle jsonfile@2.4.0~install: jsonfile@2.4.0
+918 silly lifecycle jsonfile@2.4.0~install: no script for install, continuing
+919 silly install fs-extra@2.1.2 /usr/local/lib/node_modules/.staging/fs-extra-dc9fd0ea
+920 info lifecycle fs-extra@2.1.2~install: fs-extra@2.1.2
+921 silly lifecycle fs-extra@2.1.2~install: no script for install, continuing
+922 silly install lazylines@1.0.0 /usr/local/lib/node_modules/.staging/lazylines-436676cc
+923 info lifecycle lazylines@1.0.0~install: lazylines@1.0.0
+924 silly lifecycle lazylines@1.0.0~install: no script for install, continuing
+925 silly install etc-passwd@0.0.1 /usr/local/lib/node_modules/.staging/etc-passwd-cc7acacd
+926 info lifecycle etc-passwd@0.0.1~install: etc-passwd@0.0.1
+927 silly lifecycle etc-passwd@0.0.1~install: no script for install, continuing
+928 silly install tilde-expansion@0.0.0 /usr/local/lib/node_modules/.staging/tilde-expansion-c3e05eb5
+929 info lifecycle tilde-expansion@0.0.0~install: tilde-expansion@0.0.0
+930 silly lifecycle tilde-expansion@0.0.0~install: no script for install, continuing
+931 silly install program@0.0.0 /usr/local/lib/node_modules/.staging/program-2725753e
+932 info lifecycle program@0.0.0~install: program@0.0.0
+933 verbose lifecycle program@0.0.0~install: unsafe-perm in lifecycle false
+934 verbose lifecycle program@0.0.0~install: PATH: /usr/share/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/generate-react-component/node_modules/program/node_modules/.bin:/usr/local/lib/node_modules/generate-react-component/node_modules/.bin:/usr/local/lib/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+935 verbose lifecycle program@0.0.0~install: CWD: /usr/local/lib/node_modules/generate-react-component/node_modules/program
+936 silly lifecycle program@0.0.0~install: Args: [ '-c', './install.sh' ]
+937 silly lifecycle program@0.0.0~install: Returned: code: 126  signal: null
+938 info lifecycle program@0.0.0~install: Failed to exec install script
+939 verbose unlock done using /home/cesar/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+940 silly rollbackFailedOptional Starting
+941 silly rollbackFailedOptional Finishing
+942 silly runTopLevelLifecycles Starting
+943 silly runTopLevelLifecycles Finishing
+944 silly install printInstalled
+945 verbose stack Error: program@0.0.0 install: `./install.sh`
+945 verbose stack Exit status 126
+945 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+945 verbose stack     at emitTwo (events.js:126:13)
+945 verbose stack     at EventEmitter.emit (events.js:214:7)
+945 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+945 verbose stack     at emitTwo (events.js:126:13)
+945 verbose stack     at ChildProcess.emit (events.js:214:7)
+945 verbose stack     at maybeClose (internal/child_process.js:925:16)
+945 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+946 verbose pkgid program@0.0.0
+947 verbose cwd /home/cesar/Downloads/pizzaria/front
+948 error Linux 4.15.0-43-generic
+949 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "generate-react-component"
+950 error node v8.10.0
+951 error npm  v3.5.2
+952 error code ELIFECYCLE
+953 error program@0.0.0 install: `./install.sh`
+953 error Exit status 126
+954 error Failed at the program@0.0.0 install script './install.sh'.
+954 error Make sure you have the latest version of node.js and npm installed.
+954 error If you do, this is most likely a problem with the program package,
+954 error not with npm itself.
+954 error Tell the author that this fails on your system:
+954 error     ./install.sh
+954 error You can get information on how to open an issue for this project with:
+954 error     npm bugs program
+954 error Or if that isn't available, you can get their info via:
+954 error     npm owner ls program
+954 error There is likely additional logging output above.
+955 verbose exit [ 1, true ]
