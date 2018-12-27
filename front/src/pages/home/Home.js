@@ -6,15 +6,11 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <header>
-          <a href="" class="logo">Logo</a>
-          <button>Download</button>
-        </header>
         <div class="conteudo">
           <h1>Texto H1</h1>
           <h2>Texto H2</h2>
           <button>MONTAR MINHA PIZZA</button>
-          <img src={pizza} />
+          {/* <img src={pizza} /> */}
         </div>
       </div>
     );
