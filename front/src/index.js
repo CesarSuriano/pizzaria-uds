@@ -1,7 +1,6 @@
 import React from 'react';
-import { ReactDOM, render } from 'react-dom';
+import { render } from 'react-dom';
 //import './index.css';
-import App from './components/App';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import Home from './components/home/Home';
@@ -9,6 +8,7 @@ import Finalizacao from './components/finalizacao/Finalizacao';
 import Tamanho from './components/tamanho/Tamanho';
 import Sabor from './components/sabor/Sabor';
 import ListagemPedidos from './components/listagem-pedidos/ListagemPedidos';
+import 'mini.css'
 
 //render(<App />, document.getElementById('root'));
 
